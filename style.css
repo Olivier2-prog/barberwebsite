@@ -131,7 +131,7 @@ section h2{
     letter-spacing:-1px;
 }
 .hero-detail{
-    font-size: 3.6rem;
+    font-size: 3.3rem;
     line-height: 1.2;
     margin-bottom: 3.6rem;
     line-height: 1.3;
@@ -140,7 +140,7 @@ section h2{
 .btn{
     display: inline-block;
     font-size: 1.8rem;
-    padding: 1.8rem 3.6rem;
+    padding: 1.2rem 3.6rem;
     background-color: transparent;
     color: var(--color-4);
     border-radius: 100px;
@@ -206,7 +206,7 @@ color: var(--color-1);
     background-color: var(--color-1);
 }
 .service-col h3{
-font-size: 3.6rem;
+font-size: 3.3rem;
 margin-bottom: 2.8rem;
     
 }
@@ -221,7 +221,7 @@ cursor: pointer;
     transform: scale(1.04);
 }
 .service-col p{
-font-size: 2.8rem;
+font-size: 1.8rem;
 margin: 2.4rem 0;
 line-height: 1.4;
 letter-spacing: 1px;
@@ -266,16 +266,24 @@ letter-spacing: 0.5rem;
         grid-template-columns: repeat(1,1fr);
     }
 /* END OF UTILITY CLASSES */
+.btn{
+    font-size: 1.6rem;
+    padding: 0.8rem 1.2rem;
+}
 .header{
     min-height: 50vh;
+        padding-top: 2.4rem;
+
 }
 .toggle-menu{
     display: block;
 }
 .nav-bar{
     position: relative;
+    padding: 0;
     
 }
+
 .nav-list{
     position: absolute;
     flex-direction: column;
@@ -308,14 +316,44 @@ letter-spacing: 0.5rem;
     font-size: 2.4rem;
     line-height: 1.6;
 }
+.toggle-menu{
+    width: 4cqmax;
 }
+.about-detail h3{
+    font-size: 3.2rem;
+    margin-bottom: 2.4rem;
+}
+.about-detail p{
+    margin-bottom: 2.4rem;
+    font-size: 1.6rem;
+}
+.about-detail p span{
+    font-weight: 600;
+    margin: 0 0 0 1.2rem ;
+    font-size: 2.8rem;
+}
+.about-detail p span sup{
+    color: var(--color-3);
+}
+.about-detail .btn{
+    font-size: 1.2rem;
+}
+section{
+    padding: 9rem 3.2rem;
+}
+}
+
+
 @media screen and (max-width:37.5rem){
     .header{
         padding:6.2rem 1.6rem;
+        padding-top: 2.4rem;
     }
     .nav-bar{
-        padding: 2.4rem 0;
+        /* padding: 2.4rem 0; */
+        padding-top: 0;
         margin-bottom: 20%;
+       
     }
     .logo{
         font-size: 2.4rem;
